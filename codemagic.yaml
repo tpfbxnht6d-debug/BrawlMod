@@ -1,0 +1,15 @@
+workflows:
+  ios-unsigned:
+    name: BrawlMod unsigned IPA
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    environment:
+      xcode: 15.4
+    scripts:
+      - name: Build unsigned IPA
+        script: |
+          cd OJBS-CLAUDE
+          chmod +x build.sh
+          ./build.sh
+    artifacts:
+      - OJBS-CLAUDE/dist/*.ipa
