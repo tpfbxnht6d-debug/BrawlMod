@@ -1,0 +1,24 @@
+name: Build BrawlMod IPA
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: macos-14
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: OJBS-CLAUDE
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode_15.4.app
+      - name: Build
+        run: |
+          chmod +x build.sh
+          ./build.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: BrawlMod-ipa
+          path: OJBS-CLAUDE/dist/BrawlMod.ipa
+          if-no-files-found: error
