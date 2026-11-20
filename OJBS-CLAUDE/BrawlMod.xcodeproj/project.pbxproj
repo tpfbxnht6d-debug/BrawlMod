@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A001000000000000000000A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000A1 /* AppDelegate.swift */; };
+		A001000000000000000000A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000A2 /* SceneDelegate.swift */; };
+		A001000000000000000000A3 /* OverlayWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000A3 /* OverlayWindowManager.swift */; };
+		A001000000000000000000A4 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000A4 /* FloatingButton.swift */; };
+		A001000000000000000000A5 /* ModMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000A5 /* ModMenuViewController.swift */; };
+		A001000000000000000000A6 /* FPSOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000A6 /* FPSOverlayView.swift */; };
+		A001000000000000000000A7 /* AimbotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000A7 /* AimbotManager.swift */; };
+		A001000000000000000000A8 /* ESPRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000A8 /* ESPRenderer.swift */; };
+		A001000000000000000000A9 /* SkeletonESPRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000A9 /* SkeletonESPRenderer.swift */; };
+		A001000000000000000000AA /* GlowSkinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000AA /* GlowSkinManager.swift */; };
+		A001000000000000000000AB /* AutoDodgeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000AB /* AutoDodgeManager.swift */; };
+		A001000000000000000000AC /* AutoShootManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000AC /* AutoShootManager.swift */; };
+		A001000000000000000000AD /* SkinChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000AD /* SkinChanger.swift */; };
+		A001000000000000000000AE /* ToggleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000AE /* ToggleRow.swift */; };
+		A001000000000000000000AF /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000AF /* SliderRow.swift */; };
+		A001000000000000000000B0 /* SegmentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000B0 /* SegmentRow.swift */; };
+		A001000000000000000000B1 /* ColorPickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000B1 /* ColorPickerRow.swift */; };
+		A001000000000000000000B2 /* GameLayerScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000B2 /* GameLayerScanner.swift */; };
+		A001000000000000000000B3 /* EntityTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000B3 /* EntityTracker.swift */; };
+		A001000000000000000000B4 /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000B4 /* HapticFeedback.swift */; };
+		A001000000000000000000C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000C1 /* LaunchScreen.storyboard */; };
+		A001000000000000000000C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B001000000000000000000C2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B001000000000000000000A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B001000000000000000000A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B001000000000000000000A3 /* OverlayWindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayWindowManager.swift; sourceTree = "<group>"; };
+		B001000000000000000000A4 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		B001000000000000000000A5 /* ModMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModMenuViewController.swift; sourceTree = "<group>"; };
+		B001000000000000000000A6 /* FPSOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSOverlayView.swift; sourceTree = "<group>"; };
+		B001000000000000000000A7 /* AimbotManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AimbotManager.swift; sourceTree = "<group>"; };
+		B001000000000000000000A8 /* ESPRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPRenderer.swift; sourceTree = "<group>"; };
+		B001000000000000000000A9 /* SkeletonESPRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonESPRenderer.swift; sourceTree = "<group>"; };
+		B001000000000000000000AA /* GlowSkinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowSkinManager.swift; sourceTree = "<group>"; };
+		B001000000000000000000AB /* AutoDodgeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoDodgeManager.swift; sourceTree = "<group>"; };
+		B001000000000000000000AC /* AutoShootManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoShootManager.swift; sourceTree = "<group>"; };
+		B001000000000000000000AD /* SkinChanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinChanger.swift; sourceTree = "<group>"; };
+		B001000000000000000000AE /* ToggleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleRow.swift; sourceTree = "<group>"; };
+		B001000000000000000000AF /* SliderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderRow.swift; sourceTree = "<group>"; };
+		B001000000000000000000B0 /* SegmentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentRow.swift; sourceTree = "<group>"; };
+		B001000000000000000000B1 /* ColorPickerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerRow.swift; sourceTree = "<group>"; };
+		B001000000000000000000B2 /* GameLayerScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLayerScanner.swift; sourceTree = "<group>"; };
+		B001000000000000000000B3 /* EntityTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTracker.swift; sourceTree = "<group>"; };
+		B001000000000000000000B4 /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
+		B001000000000000000000C1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B001000000000000000000C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B001000000000000000000C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B001000000000000000000C4 /* BrawlMod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BrawlMod.entitlements; sourceTree = "<group>"; };
+		B001000000000000000000F1 /* BrawlMod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrawlMod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D001000000000000000000F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E001000000000000000000F1 = {
+			isa = PBXGroup;
+			children = (
+				E001000000000000000000F2 /* BrawlMod */,
+				E001000000000000000000FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E001000000000000000000F2 /* BrawlMod */ = {
+			isa = PBXGroup;
+			children = (
+				E001000000000000000000F3 /* App */,
+				E001000000000000000000F4 /* Overlay */,
+				E001000000000000000000F5 /* Features */,
+				E001000000000000000000F6 /* UI */,
+				E001000000000000000000F7 /* Utilities */,
+				E001000000000000000000F8 /* Resources */,
+				B001000000000000000000C3 /* Info.plist */,
+				B001000000000000000000C4 /* BrawlMod.entitlements */,
+			);
+			path = BrawlMod;
+			sourceTree = "<group>";
+		};
+		E001000000000000000000F3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B001000000000000000000A1 /* AppDelegate.swift */,
+				B001000000000000000000A2 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E001000000000000000000F4 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				B001000000000000000000A3 /* OverlayWindowManager.swift */,
+				B001000000000000000000A4 /* FloatingButton.swift */,
+				B001000000000000000000A5 /* ModMenuViewController.swift */,
+				B001000000000000000000A6 /* FPSOverlayView.swift */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		E001000000000000000000F5 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B001000000000000000000A7 /* AimbotManager.swift */,
+				B001000000000000000000A8 /* ESPRenderer.swift */,
+				B001000000000000000000A9 /* SkeletonESPRenderer.swift */,
+				B001000000000000000000AA /* GlowSkinManager.swift */,
+				B001000000000000000000AB /* AutoDodgeManager.swift */,
+				B001000000000000000000AC /* AutoShootManager.swift */,
+				B001000000000000000000AD /* SkinChanger.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E001000000000000000000F6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B001000000000000000000AE /* ToggleRow.swift */,
+				B001000000000000000000AF /* SliderRow.swift */,
+				B001000000000000000000B0 /* SegmentRow.swift */,
+				B001000000000000000000B1 /* ColorPickerRow.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E001000000000000000000F7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B001000000000000000000B2 /* GameLayerScanner.swift */,
+				B001000000000000000000B3 /* EntityTracker.swift */,
+				B001000000000000000000B4 /* HapticFeedback.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E001000000000000000000F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B001000000000000000000C1 /* LaunchScreen.storyboard */,
+				B001000000000000000000C2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E001000000000000000000FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B001000000000000000000F1 /* BrawlMod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F001000000000000000000F1 /* BrawlMod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F101000000000000000000F1 /* Build configuration list for PBXNativeTarget "BrawlMod" */;
+			buildPhases = (
+				G001000000000000000000F1 /* Sources */,
+				D001000000000000000000F1 /* Frameworks */,
+				H001000000000000000000F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrawlMod;
+			productName = BrawlMod;
+			productReference = B001000000000000000000F1 /* BrawlMod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		I001000000000000000000F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F001000000000000000000F1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = J001000000000000000000F1 /* Build configuration list for PBXProject "BrawlMod" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E001000000000000000000F1;
+			productRefGroup = E001000000000000000000FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F001000000000000000000F1 /* BrawlMod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		H001000000000000000000F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001000000000000000000C1 /* LaunchScreen.storyboard in Resources */,
+				A001000000000000000000C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		G001000000000000000000F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001000000000000000000A1 /* AppDelegate.swift in Sources */,
+				A001000000000000000000A2 /* SceneDelegate.swift in Sources */,
+				A001000000000000000000A3 /* OverlayWindowManager.swift in Sources */,
+				A001000000000000000000A4 /* FloatingButton.swift in Sources */,
+				A001000000000000000000A5 /* ModMenuViewController.swift in Sources */,
+				A001000000000000000000A6 /* FPSOverlayView.swift in Sources */,
+				A001000000000000000000A7 /* AimbotManager.swift in Sources */,
+				A001000000000000000000A8 /* ESPRenderer.swift in Sources */,
+				A001000000000000000000A9 /* SkeletonESPRenderer.swift in Sources */,
+				A001000000000000000000AA /* GlowSkinManager.swift in Sources */,
+				A001000000000000000000AB /* AutoDodgeManager.swift in Sources */,
+				A001000000000000000000AC /* AutoShootManager.swift in Sources */,
+				A001000000000000000000AD /* SkinChanger.swift in Sources */,
+				A001000000000000000000AE /* ToggleRow.swift in Sources */,
+				A001000000000000000000AF /* SliderRow.swift in Sources */,
+				A001000000000000000000B0 /* SegmentRow.swift in Sources */,
+				A001000000000000000000B1 /* ColorPickerRow.swift in Sources */,
+				A001000000000000000000B2 /* GameLayerScanner.swift in Sources */,
+				A001000000000000000000B3 /* EntityTracker.swift in Sources */,
+				A001000000000000000000B4 /* HapticFeedback.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		K001000000000000000000F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		K001000000000000000000F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		L001000000000000000000F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BrawlMod/BrawlMod.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BrawlMod/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brawlmod.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		L001000000000000000000F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BrawlMod/BrawlMod.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BrawlMod/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brawlmod.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		J001000000000000000000F1 /* Build configuration list for PBXProject "BrawlMod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				K001000000000000000000F1 /* Debug */,
+				K001000000000000000000F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F101000000000000000000F1 /* Build configuration list for PBXNativeTarget "BrawlMod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				L001000000000000000000F1 /* Debug */,
+				L001000000000000000000F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = I001000000000000000000F1 /* Project object */;
+}
